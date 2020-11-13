@@ -43,7 +43,6 @@ class rex_ycom_media_auth extends \rex_yform_manager_dataset
         }
 
         // from here only logged in Users
-
         $me = rex_ycom_user::getMe();
 
         if (!$me) {
